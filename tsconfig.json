@@ -5,30 +5,32 @@
     "lib": ["ES2021"],
     "outDir": "dist",
     "rootDir": "src",
+
     "strict": true,
     "esModuleInterop": true,
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true,
     "resolveJsonModule": true,
-    "moduleResolution": "node",
+
     "experimentalDecorators": true,
     "emitDecoratorMetadata": true,
     "declaration": false,
     "sourceMap": true,
-    "baseUrl": "src",
+
     "paths": {
-      "@config/*": ["config/*"],
-      "@models/*": ["models/*"],
-      "@services/*": ["services/*"],
-      "@controllers/*": ["controllers/*"],
-      "@routes/*": ["routes/*"],
-      "@middleware/*": ["middleware/*"],
-      "@validators/*": ["validators/*"],
-      "@utils/*": ["utils/*"],
-      "@providers/*": ["providers/*"],
-      "@types/*": ["types/*"]
+      "@config/*": ["./src/config/*"],
+      "@models/*": ["./src/models/*"],
+      "@services/*": ["./src/services/*"],
+      "@controllers/*": ["./src/controllers/*"],
+      "@routes/*": ["./src/routes/*"],
+      "@middleware/*": ["./src/middleware/*"],
+      "@validators/*": ["./src/validators/*"],
+      "@utils/*": ["./src/utils/*"],
+      "@providers/*": ["./src/providers/*"],
+      "@types/*": ["./src/types/*"]
     }
   },
+
   "include": ["src/**/*.ts"],
   "exclude": ["node_modules", "dist"]
 }
